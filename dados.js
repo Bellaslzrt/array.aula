@@ -17,4 +17,11 @@ frutas.push('limao');
 console.log(frutas);
 // adiciona um elemento no final do array carrinho
 carrinho.push(frutas[1]);
-console.log(carrinho);
+console.log(carrinho); 
+// percorre todo o array paraexibir cada elemento
+for (let contador= 0; contador < frutas.length; contador++) {
+  console.log("A fruta" + frutas [contador]);  
+}
+// percorre todo o array paraexibir cada elemento
+frutas.fotEach(function(fruta){
+});
